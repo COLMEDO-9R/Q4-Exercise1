@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(to right, #ffe0e0, #ffb6c1); /* Soft light pink gradient background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+  overflow: hidden;
+}
+
+img {
+  align-items: center;
+}
+
+/* Container adjustments: making it narrower with a light pink color */
+.container {
+  width: 40%; /* Narrowed container width */
+  margin: 0 auto;
+  padding: 30px;
+  background: url('https://i.pinimg.com/736x/60/63/e9/6063e962ac26080b9117d42d1687c47f.jpg') repeat; /* Replace with your cartoon background */
+  background-size: contain;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 2px solid #ff1493; /* Pink border */
+  background-color: #ffdde1; /* Light light pink background */
+}
+
+/* Style for headings to make them cute */
+h1 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: lightpink;
+  text-align: center;
+}
+
+/* Style for form elements, input fields, and button */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduced gap between form elements */
+  margin-top: 20px;
+}
+
+.form-label {
+  font-size: 1.2em;
+  color: #ff1493;
+}
+
+input {
+  border: 2px solid #ff69b4; /* Lighter border for input fields */
+  border-radius: 5px;
+  padding: 8px; /* Reduced padding for smaller input */
+  font-size: 1em; /* Slightly smaller font size */
+}
+
+button {
+  background-color: #ff1493;
+  color: white;
+  padding: 10px; /* Reduced padding for smaller button */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff69b4;
+}
+
+/* Results section */
+h2 {
+  color: #ff1493;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  color: #ff69b4;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* Add side padding */
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
